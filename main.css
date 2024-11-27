@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+}
+
+.img-container {
+  display: none;
+}
+.btn-container {
+  display: flex;
+  justify-content: center; /* 가로 방향 중앙 정렬 */
+  align-items: center; /* 세로 방향 중앙 정렬 */
+  margin: 0; /* 기본 여백 제거 */
+}
+
+#btn {
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* 그림자 강조 */
+}
