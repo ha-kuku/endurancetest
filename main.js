@@ -7,8 +7,7 @@ nobutton.addEventListener('mouseenter', () => {
   nobutton.style.transform = `translate(${randomX}px, ${randomY}px)`;
 });
 
-const yesbutton = document.querySelector('.yes');
-
-yesbutton.onclick = function () {
-  alert(poo);
-};
+function showImage() {
+  const image = document.getElementById('dorian');
+  image.style.display = 'block';
+}

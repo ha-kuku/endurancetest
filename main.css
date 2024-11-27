@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.img-container {
+#dorian {
   display: none;
 }
 .btn-container {
@@ -12,10 +12,18 @@
   margin: 0; /* 기본 여백 제거 */
 }
 
-#btn {
+#btn-yes {
   margin: 0 5px;
   cursor: pointer;
-  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  transition: transform 0.05s ease, box-shadow 0.3s ease;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#btn-no {
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.05s ease, box-shadow 0.3s ease;
   position: relative;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
